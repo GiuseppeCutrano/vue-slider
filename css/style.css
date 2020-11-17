@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+
+    width: 500;
+    height: 700px;
+    margin: auto;
+}
+
+.slider {
+
+    width: calc(100% - 100px);
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.slider img {
+    height: 600px
+
+}
+
+.left, .right {
+  width: 50px;
+  height: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.left i, .right i {
+    cursor: pointer;
+    font-size: 50px;
+    color: #1c4aa6;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.circle i {
+    cursor: pointer;
+    margin: 0 5px;
+    color: #2e3033;
+
+}
